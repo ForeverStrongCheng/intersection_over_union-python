@@ -36,11 +36,11 @@ def bb_intersection_over_union(boxA, boxB):
 
 # define the list of example detections
 examples = [
-    Detection("image_0002.jpg", [39, 63, 203, 112], [54, 66, 198, 114]),
-    Detection("image_0016.jpg", [49, 75, 203, 125], [42, 78, 186, 126]),
-    Detection("image_0075.jpg", [31, 69, 201, 125], [18, 63, 235, 135]),
-    Detection("image_0090.jpg", [50, 72, 197, 121], [54, 72, 198, 120]),
-    Detection("image_0120.jpg", [35, 51, 196, 110], [36, 60, 180, 108])]
+    Detection("./images/image_0002.jpg", [39, 63, 203, 112], [54, 66, 198, 114]),
+    Detection("./images/image_0016.jpg", [49, 75, 203, 125], [42, 78, 186, 126]),
+    Detection("./images/image_0075.jpg", [31, 69, 201, 125], [18, 63, 235, 135]),
+    Detection("./images/image_0090.jpg", [50, 72, 197, 121], [54, 72, 198, 120]),
+    Detection("./images/image_0120.jpg", [35, 51, 196, 110], [36, 60, 180, 108])]
 
 # loop over the example detections
 for detection in examples:
